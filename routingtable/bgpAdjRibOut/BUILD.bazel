@@ -6,7 +6,7 @@ go_library(
         "adj_rib_out.go",
         "path_id_manager.go",
     ],
-    importpath = "github.com/bio-routing/bio-rd/routingtable/adjRIBOut",
+    importpath = "github.com/bio-routing/bio-rd/routingtable/bgpAdjRibOut",
     visibility = ["//visibility:public"],
     deps = [
         "//net:go_default_library",

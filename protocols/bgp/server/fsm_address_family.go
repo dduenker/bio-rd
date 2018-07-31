@@ -8,8 +8,8 @@ import (
 	"github.com/bio-routing/bio-rd/protocols/bgp/types"
 	"github.com/bio-routing/bio-rd/route"
 	"github.com/bio-routing/bio-rd/routingtable"
-	"github.com/bio-routing/bio-rd/routingtable/adjRIBIn"
-	"github.com/bio-routing/bio-rd/routingtable/adjRIBOut"
+	"github.com/bio-routing/bio-rd/routingtable/bgpAdjRibIn"
+	"github.com/bio-routing/bio-rd/routingtable/bgpAdjRibOut"
 	"github.com/bio-routing/bio-rd/routingtable/filter"
 	"github.com/bio-routing/bio-rd/routingtable/locRIB"
 )
